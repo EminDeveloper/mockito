@@ -1,6 +1,8 @@
 package com.mockito.mockito.business.service;
 
 
+import com.mockito.mockito.domain.entity.BaseDomain;
+
 import java.util.function.Supplier;
 
 public interface BaseService<D extends BaseDomain, E extends Exception> {

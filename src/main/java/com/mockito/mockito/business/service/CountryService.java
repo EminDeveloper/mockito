@@ -1,6 +1,9 @@
 package com.mockito.mockito.business.service;
 
 
+import com.mockito.mockito.business.exception.ElementNotFoundException;
+import com.mockito.mockito.domain.entity.Country;
+
 public interface CountryService extends BaseService<Country, ElementNotFoundException> {
 
     Country findById(Long id, boolean loadCantons, boolean loadCities) throws ElementNotFoundException;

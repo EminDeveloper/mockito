@@ -1,6 +1,9 @@
 package com.mockito.mockito.infrastructure.configuration.mapper;
 
 
+import com.mockito.mockito.infrastructure.mapper.CantonMapper;
+import com.mockito.mockito.infrastructure.mapper.CityMapper;
+import com.mockito.mockito.infrastructure.mapper.CountryMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
