@@ -5,7 +5,6 @@ import com.mockito.mockito.domain.entity.Canton;
 import com.mockito.mockito.domain.entity.City;
 import com.mockito.mockito.domain.entity.Country;
 import com.mockito.mockito.domain.repository.CityRepository;
-
 import java.util.Set;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
@@ -14,9 +13,7 @@ import java.util.stream.Collectors;
 public class CityServiceImpl implements CityService {
 
     private static final String EXCEPTION_MESSAGE_TEMPLATE = "City with %s does not exist.";
-
     private final CityRepository cityRepository;
-
     public CityServiceImpl(CityRepository cityRepository) {
         this.cityRepository = cityRepository;
     }

@@ -1,6 +1,5 @@
 package com.mockito.mockito.domain.repository;
 
-
 import com.mockito.mockito.domain.entity.Canton;
 import com.mockito.mockito.domain.entity.City;
 import com.mockito.mockito.domain.entity.Country;

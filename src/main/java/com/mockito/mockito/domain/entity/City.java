@@ -1,6 +1,5 @@
 package com.mockito.mockito.domain.entity;
 
-
 public class City extends BaseDomain {
 
     private final String name;
